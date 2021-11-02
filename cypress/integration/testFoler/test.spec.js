@@ -26,6 +26,6 @@ describe("Initializing view with the first elements", () => {
   });
 
   it("deleting cards from selection", () => {
-    cy.get("[ data-testid=img_card]");
+    cy.get("[ data-testid=img_card]").click().should();
   });
 });

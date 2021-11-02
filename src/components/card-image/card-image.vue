@@ -16,6 +16,7 @@
             @click="deleteCardSelected($event)"
             :src="single_card.url"
             class="image_card"
+            data-testid='img_card'
           />
         </div>
         <div class="jumpy_card_back_side" @click="deleteCardSelected($event)">
